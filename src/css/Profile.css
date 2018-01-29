@@ -1,0 +1,24 @@
+.image-container {
+    text-align: center;
+    float: left;
+    margin-right: 2em;
+}
+
+.profile-img {
+    width: 300px;
+    height: 300px;
+}
+
+.contact-img {
+    clear: both;
+}
+
+.contact-img img {
+    margin: 0.5em;
+    width: 50px;
+    height: 50px;
+}
+
+.text-container, .image-container {
+    margin-top: 2em;
+}
