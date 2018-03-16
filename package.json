@@ -2,7 +2,7 @@
   "name": "react-mygithubpage",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://bmansell.github.io/react-mygithubpage",
+  "homepage": "http://briannamansell.com",
   "dependencies": {
     "bootstrap": "^4.0.0-beta.3",
     "eslint": "^4.16.0",
