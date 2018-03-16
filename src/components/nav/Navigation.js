@@ -1,11 +1,11 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 import {
     Collapse,
     Navbar,
     NavbarToggler,
     Nav,
     NavItem,
-    NavLink,
     NavbarBrand
 } from 'reactstrap';
 
@@ -28,19 +28,19 @@ export default class Navigation extends React.Component {
     render() {
         return (
             <div>
-                <Navbar color="faded" light expand="md">
+                <Navbar color='faded' light expand='md'>
                     <NavbarBrand/>
                     <NavbarToggler onClick={this.toggle}/>
                     <Collapse isOpen={this.state.isOpen} navbar>
-                        <Nav className="ml-auto" navbar>
+                        <Nav className='ml-auto' navbar>
                             <NavItem>
-                                <NavLink href="/">Home</NavLink>
+                                <Link to='/'>Home</Link>
                             </NavItem>
                             <NavItem>
-                                <NavLink href="/profile">Profile</NavLink>
+                                <Link to='profile'>Profile</Link>
                             </NavItem>
                             <NavItem>
-                                <NavLink href="/projects">Projects</NavLink>
+                                <Link to='/projects'>Projects</Link>
                             </NavItem>
                         </Nav>
                     </Collapse>

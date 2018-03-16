@@ -35,9 +35,15 @@ p {
     line-height: 20pt;
 }
 
-a, a:hover {
+p a, p a:hover {
     text-decoration: none;
     color: #de4c4b;
+}
+
+.nav-item a {
+    padding: 0.5em 1em;
+    color: #666666;
+    text-decoration: none;
 }
 
 .app {
