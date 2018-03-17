@@ -14,9 +14,11 @@ class App extends Component {
         return (
             <div className='app'>
                 <Navigation/>
-                <header>
+                <header className='app-header'>
                     <img src={code} alt='Spinning code logo'/>
-                    <h1>Brianna<span>Mansell</span></h1>
+                    <h1>
+                        Brianna<span>Mansell</span>
+                    </h1>
                 </header>
 
                 <Switch>
@@ -25,7 +27,7 @@ class App extends Component {
                     <Route path='/projects' component={Projects}/>
                 </Switch>
 
-                <footer>
+                <footer className='app-footer'>
                     <p>&copy; Brianna Mansell. All rights reserved.</p>
                 </footer>
             </div>

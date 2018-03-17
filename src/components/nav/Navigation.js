@@ -27,7 +27,7 @@ export default class Navigation extends React.Component {
 
     render() {
         return (
-            <div>
+            <div className='app-nav'>
                 <Navbar color='faded' light expand='md'>
                     <NavbarBrand/>
                     <NavbarToggler onClick={this.toggle}/>

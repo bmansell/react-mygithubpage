@@ -30,7 +30,7 @@ class DirectoryGallery extends Component {
                 <Gallery
                     photos={directoryPhotos}
                     onClick={this.openLightbox}
-                    margin={50}
+                    margin={20}
                     columns={3}
                 />
                 <Lightbox

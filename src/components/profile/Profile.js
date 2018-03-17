@@ -22,7 +22,7 @@ class About extends Component {
                         <div className='image-container'>
                             <img src={bri} className='profile-img' alt='bri'/>
 
-                            <div className='contact-img'>
+                            <div className='contact'>
                                 <a href='mailto:briannajmansell@gmail.com'>
                                     <img src={email} alt='Email envelope'/>
                                 </a>
