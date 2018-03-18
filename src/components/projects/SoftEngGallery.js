@@ -32,7 +32,7 @@ class SoftEngGallery extends Component {
                 <Gallery
                     photos={softengPhotos}
                     onClick={this.openLightbox}
-                    margin={20}
+                    margin={10}
                     columns={4}
                 />
                 <Lightbox
