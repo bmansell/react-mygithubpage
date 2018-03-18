@@ -21,6 +21,8 @@ class App extends Component {
                     </h1>
                 </header>
 
+                <br/>
+
                 <Switch>
                     <Route exact path='/' component={Intro}/>
                     <Route path='/profile' component={Profile}/>

@@ -32,7 +32,7 @@ class GraphicsGallery extends Component {
                 <Gallery
                     photos={graphicsPhotos}
                     onClick={this.openLightbox}
-                    margin={20}
+                    margin={10}
                     columns={4}
                 />
                 <Lightbox

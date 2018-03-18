@@ -10,14 +10,19 @@
 
 $brand-colour: #0a7ea3;
 $accent-colour: #de4c4b;
-$link-color: #666666;
+$nav-colour: #666666;
 $disclaimer: lightslategray;
 
-h2 {
+h2, h3 {
     color: $brand-colour;
 }
 
+h4 {
+    color: $nav-colour
+}
+
 h2, h3, h4, h5, h6 {
+    font-family: 'Barlow', sans-serif;
     font-weight: bold;
 }
 
@@ -65,7 +70,7 @@ p a, p a:hover {
 
 .nav-item a {
     padding: 0.5em 1em;
-    color: $link-color;
+    color: $nav-colour;
     text-decoration: none;
 }
 
@@ -113,5 +118,9 @@ p a, p a:hover {
 
     p {
         font-size: 1rem;
+    }
+
+    .main-content {
+        padding: 0 2em;
     }
 }

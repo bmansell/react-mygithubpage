@@ -5,10 +5,14 @@
   to {
     transform: rotate(360deg); } }
 
-h2 {
+h2, h3 {
   color: #0a7ea3; }
 
+h4 {
+  color: #666666; }
+
 h2, h3, h4, h5, h6 {
+  font-family: 'Barlow', sans-serif;
   font-weight: bold; }
 
 p {
@@ -75,4 +79,6 @@ p a, p a:hover {
   h4 {
     font-size: 1.25rem; }
   p {
-    font-size: 1rem; } }
+    font-size: 1rem; }
+  .main-content {
+    padding: 0 2em; } }
