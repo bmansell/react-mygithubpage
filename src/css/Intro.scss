@@ -1,0 +1,145 @@
+.terminal-container {
+  padding: 2rem 16rem 0 16rem; }
+
+.terminal {
+  background-color: #333;
+  padding: 1rem 0 10rem 1rem; }
+
+.css-typing p, .css-typing span, .css-typing h5 {
+  text-align: left;
+  font-family: 'Monaco', 'Courier', sans-serif;
+  font-size: 1.25rem;
+  white-space: nowrap;
+  overflow: hidden;
+  color: white; }
+
+.css-typing p {
+  border-right: 0.75rem solid #EEE;
+  color: #DDD; }
+
+span.user {
+  padding-right: 1rem;
+  font-weight: bolder; }
+
+span.orange {
+  color: #e2640f;
+  padding-right: 0; }
+
+span.yellow {
+  color: #b58e0e;
+  padding-right: 0; }
+
+span.green {
+  color: #5c8205;
+  padding-right: 0; }
+
+span.blue {
+  color: #6078db;
+  padding-right: 0; }
+
+.css-typing p {
+  width: 12.5rem;
+  opacity: 0;
+  -webkit-animation: type 2s steps(14, end);
+  animation: type 2s steps(14, end);
+  -webkit-animation-delay: 1s;
+  animation-delay: 1s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards; }
+
+@keyframes type {
+  0% {
+    width: 0; }
+  1% {
+    opacity: 1; }
+  100% {
+    opacity: 1; } }
+
+@-webkit-keyframes type {
+  0% {
+    width: 0; }
+  1% {
+    opacity: 1; }
+  100% {
+    opacity: 1; } }
+
+@media(max-width: 1360px) {
+    .css-typing p, .css-typing span, .css-typing h5 {
+        font-size: 1rem;
+        margin-bottom: 0.25rem;
+    }
+
+    .css-typing p {
+        width: 10.25rem;
+        border-right: 0.6rem solid #EEE;
+    }
+
+    .terminal {
+      padding: 0.5rem 0 9rem 0.5rem;
+    }
+
+    .terminal-container {
+      padding: 2rem 8rem 0 8rem;
+    }
+}
+
+@media(max-width: 1100px) {
+    .css-typing p, .css-typing span, .css-typing h5 {
+        font-size: 0.8rem;
+    }
+
+    .css-typing p {
+        width: 8.1rem;
+        border-right: 0.5rem solid #EEE;
+        line-height: 1.25rem;
+    }
+
+    span.user {
+      padding-right: 0.75rem;
+    }
+}
+
+@media(max-width: 930px) {
+    .css-typing p, .css-typing span, .css-typing h5 {
+        font-size: 0.75rem;
+        margin-bottom: 0.1rem;
+    }
+
+    .css-typing p {
+        width: 7.75rem;
+    }
+
+    .terminal {
+      padding: 0.5rem 0 7rem 0.5rem;
+    }
+
+    span.user {
+      padding-right: 0.75rem;
+    }
+}
+
+@media(max-width: 760px) {
+    .css-typing p {
+        width: 7.45rem;
+    }
+
+    .terminal-container {
+      padding: 2rem 4rem 0 4rem;
+    }
+
+    span.user {
+      padding-right: 0.5rem;
+    }
+}
+
+@media(max-width: 630px) {
+    .terminal-container {
+      padding: 2rem 2rem 0 2rem;
+    }
+
+    .css-typing h5 {
+        overflow-wrap: break-word;
+        white-space: normal;
+        line-height: 1.1rem;
+    }
+}
