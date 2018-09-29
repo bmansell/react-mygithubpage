@@ -99,7 +99,7 @@ span.blue {
 @media (max-width: 760px) {
   .css-typing p {
     width: 7.45rem; }
-  .terminal-container {y
+  .terminal-container {
     padding: 2rem 4rem 0 4rem; }
   span.user {
     padding-right: 0.5rem; } }
