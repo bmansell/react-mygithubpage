@@ -5,7 +5,7 @@
 }
 
 .profile-img {
-    max-width: 16rem;
+    max-width: 12rem;
     width: 100%;
 }
 
@@ -31,5 +31,13 @@
 
     .text-container {
         margin-top: 0;
+    }
+
+    .contact {
+        img {
+            margin: 0.25rem;
+            width: 2.5rem;
+            height: 2.5rem;
+        }
     }
 }

@@ -4,7 +4,7 @@
   margin-right: 2rem; }
 
 .profile-img {
-  max-width: 16rem;
+  max-width: 12rem;
   width: 100%; }
 
 .contact img {
@@ -22,4 +22,8 @@
     display: block;
     margin: 1rem; }
   .text-container {
-    margin-top: 0; } }
+    margin-top: 0; }
+  .contact img {
+    margin: 0.25rem;
+    width: 2.5rem;
+    height: 2.5rem; } }
