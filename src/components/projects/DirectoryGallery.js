@@ -1,15 +1,12 @@
 import React, {Component} from 'react';
 import Gallery from 'react-photo-gallery';
 import Lightbox from 'react-images';
-
-import directory1 from '../../img/directory1.png';
-import directory2 from '../../img/directory2.png';
-import directory3 from '../../img/directory3.png';
+import {images} from '../../images';
 
 const directoryPhotos = [
-    {src: directory1, width: 0.2, height: 0.3},
-    {src: directory2, width: 0.2, height: 0.3},
-    {src: directory3, width: 0.2, height: 0.3}
+    {src: images.directory.directory1, width: 0.2, height: 0.3},
+    {src: images.directory.directory2, width: 0.2, height: 0.3},
+    {src: images.directory.directory3, width: 0.2, height: 0.3}
 ];
 
 class DirectoryGallery extends Component {

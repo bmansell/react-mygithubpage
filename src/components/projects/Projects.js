@@ -7,9 +7,12 @@ import {
     CardText,
 } from 'reactstrap';
 
-import GraphicsGallery from './GraphicsGallery';
-import SoftEngGallery from './SoftEngGallery';
+import '../../css/Projects.css';
+
 import DirectoryGallery from './DirectoryGallery';
+import GraphicsGallery from './GraphicsGallery';
+import ReactGallery from './ReactGallery';
+import SoftEngGallery from './SoftEngGallery';
 
 class Projects extends Component {
     render() {
@@ -18,11 +21,22 @@ class Projects extends Component {
                 <Card>
                     <CardBody>
                         <CardTitle>
+                            <Badge>Intro to React</Badge>
+                        </CardTitle>
+                        <ReactGallery/>
+                        <CardText>
+                            In March of 2018, I presented a beginner lesson about the JavaScript library React alongside my co-worker Jessica Sanders. Together we gave a lecture on the basics of React and demonstrated some simple component exercises. I developed these examples using the create-react-app starter by Facebook, and you can find the <a href='https://github.com/bmansell/intro-to-react' target='_blank' rel='noopener noreferrer'>repository code</a> on my GitHub account. The <a href='https://docs.google.com/presentation/d/1wY8THWbEHNVILIhR_ydCebQFwxxD1TAtT6KKD_Gzo3U/edit?usp=sharing' target='_blank' rel='noopener noreferrer'>lesson content</a> is hosted on Google Slides.
+                        </CardText>
+                    </CardBody>
+                </Card>
+                <Card>
+                    <CardBody>
+                        <CardTitle>
                             <Badge>Directory</Badge>
                         </CardTitle>
                         <DirectoryGallery/>
                         <CardText>
-                            Directory is a project that I helped design and develop during the "Innovate or Die" (IOD) days at Bold, which is a hackathon type event with the goal of improving Bold itself. You get to create your own project or help someone else achieve theirs. I chose to help a fellow co-worker and good friend in creating a web application that uses Samsung SmartThings sensors to track office movement and current door positions of our directors to see if they are available or busy/away. The code base uses ES6 (React), Golang, Groovy, and Ruby (Sinatra). At our most recent IOD we were able to Docker-ize app and publish it live. You can check it out <a href='http://directory.boldcommerce.com' target='_blank' rel='noopener noreferrer'>here!</a>
+                            Directory is a project that I helped design and develop during the "Innovate or Die" (IOD) days at Bold, which is a hackathon type event with the goal of improving Bold itself. You get to create your own project or help someone else achieve theirs. I chose to help a fellow co-worker and good friend in creating a web application that uses Samsung SmartThings sensors to track office movement and current door positions of our directors to see if they are available or busy/away. The code base uses ES6 (React), Golang, Groovy, and Ruby (Sinatra). At our most recent IOD we were able to Docker-ize app and publish it live. You can check it out <a href='https://directory.boldcommerce.com' target='_blank' rel='noopener noreferrer'>here!</a>
                         </CardText>
                     </CardBody>
                 </Card>
@@ -46,7 +60,7 @@ class Projects extends Component {
                         </CardTitle>
                         <SoftEngGallery/>
                         <CardText>
-                            The <a href='http://ec2-54-84-176-22.compute-1.amazonaws.com/' target='blank' rel='noopener noreferrer'>partEz</a> application is what my group created for our Software Engineering II class using a Laravel, MySQL, and PHP stack. This was my first time developing using this stack. The app exists on both web and android platforms, and the purpose of the app is to facilitate the planning, organizing, and sharing of parties. In addition to contributing to this code base via implementation of the Invitations page, Event View, and testing, I also designed and created the logo. The codebase is linked here on my <a href='https://github.com/umSoftEng2GrpE/partEZ' target='_blank' rel='noopener noreferrer'> GitHub</a>.
+                            The <a href='https://ec2-54-84-176-22.compute-1.amazonaws.com/' target='blank' rel='noopener noreferrer'>partEz</a> application is what my group created for our Software Engineering II class using a Laravel, MySQL, and PHP stack. This was my first time developing using this stack. The app exists on both web and android platforms, and the purpose of the app is to facilitate the planning, organizing, and sharing of parties. In addition to contributing to this code base via implementation of the Invitations page, Event View, and testing, I also designed and created the logo. The codebase is linked here on my <a href='https://github.com/umSoftEng2GrpE/partEZ' target='_blank' rel='noopener noreferrer'> GitHub</a>.
                         </CardText>
                     </CardBody>
                 </Card>

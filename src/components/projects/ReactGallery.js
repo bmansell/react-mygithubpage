@@ -3,18 +3,17 @@ import Gallery from 'react-photo-gallery';
 import Lightbox from 'react-images';
 import {images} from '../../images';
 
-const graphicsPhotos = [
-    {src: images.graphics.shapes, width: 0.2, height: 0.2, caption: 'Model Manipulation (Duplicate, Transform, Rotate)'},
-    {src: images.graphics.bubbles, width: 0.2, height: 0.2, caption: 'Bubble Wand with Wind Physics'},
-    {src: images.graphics.robot1, width: 0.2, height: 0.2, caption: 'Walking Cycle with Different Camera Views'},
-    {src: images.graphics.robot2, width: 0.2, height: 0.2, caption: 'Endless Runner'}
+const reactPhotos = [
+    {src: images.react.counter, width: 0.1, height: 0.1, caption: 'Counter'},
+    {src: images.react.water, width: 0.1, height: 0.1, caption: 'States of Water'},
+    {src: images.react.beer, width: 0.1, height: 0.1, caption: 'States of People'},
 ];
 
-class GraphicsGallery extends Component {
+class ReactGallery extends Component {
     constructor() {
         super();
         this.state = {
-            currentGraphImage: 0
+            currentReactImage: 0
         };
         this.closeLightbox = this.closeLightbox.bind(this);
         this.openLightbox = this.openLightbox.bind(this);
@@ -26,18 +25,18 @@ class GraphicsGallery extends Component {
         return (
             <div>
                 <Gallery
-                    photos={graphicsPhotos}
+                    photos={reactPhotos}
                     onClick={this.openLightbox}
                     margin={10}
-                    columns={4}
+                    columns={3}
                 />
                 <Lightbox
-                    images={graphicsPhotos}
+                    images={reactPhotos}
                     backdropClosesModal={true}
                     onClose={this.closeLightbox}
                     onClickPrev={this.gotoPrevious}
                     onClickNext={this.gotoNext}
-                    currentImage={this.state.currentGraphImage}
+                    currentImage={this.state.currentReactImage}
                     isOpen={this.state.lightboxReactIsOpen}
                 />
             </div>
@@ -46,29 +45,29 @@ class GraphicsGallery extends Component {
 
     openLightbox(event, obj) {
         this.setState({
-            currentGraphImage: obj.index,
+            currentReactImage: obj.index,
             lightboxReactIsOpen: true,
         });
     }
 
     closeLightbox() {
         this.setState({
-            currentGraphImage: 0,
+            currentReactImage: 0,
             lightboxReactIsOpen: false,
         });
     }
 
     gotoPrevious() {
         this.setState({
-            currentGraphImage: this.state.currentGraphImage - 1,
+            currentReactImage: this.state.currentReactImage - 1,
         });
     }
 
     gotoNext() {
         this.setState({
-            currentGraphImage: this.state.currentGraphImage + 1,
+            currentReactImage: this.state.currentReactImage + 1,
         });
     }
 }
 
-export default GraphicsGallery;
+export default ReactGallery;

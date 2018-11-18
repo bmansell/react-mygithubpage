@@ -5,9 +5,9 @@ import '../css/App.css';
 import code from '../img/code.svg';
 
 import Intro from './intro/Intro';
+import Navigation from './nav/Navigation';
 import Profile from './profile/Profile';
 import Projects from './projects/Projects';
-import Navigation from './nav/Navigation';
 
 class App extends Component {
     render() {
