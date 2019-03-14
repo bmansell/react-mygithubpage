@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Ubuntu");
 .terminal-container {
   padding: 2rem 16rem 0 16rem; }
 
@@ -16,6 +17,9 @@
 .css-typing p {
   border-right: 0.75rem solid #EEE;
   color: #DDD; }
+
+.type-in p {
+  font-family: 'Ubuntu', sans-serif; }
 
 span.user {
   font-family: 'Ubuntu', sans-serif;
