@@ -10,7 +10,7 @@ class Intro extends Component {
                     <div className="css-typing">
                         <h5>
                             <span className="orange">briannamansell</span> at&nbsp;
-                            <span className="yellow">Brianna-Mansells-Website</span> in&nbsp;
+                            <span className="yellow">World-Wide-Web</span> in&nbsp;
                             <span className="green">~/workspace</span> on&nbsp;
                             <span className="blue">develop</span>
                         </h5>

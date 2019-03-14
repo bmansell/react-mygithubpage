@@ -7,7 +7,7 @@ import {
 
 import '../../css/Profile.css';
 
-import bri from '../../img/bri_colour.jpg';
+import bri from '../../img/briColour.jpg';
 import email from '../../img/email.svg';
 import github from '../../img/github.svg';
 import linkedin from '../../img/linkedin.svg';

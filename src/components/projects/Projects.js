@@ -36,7 +36,7 @@ class Projects extends Component {
                         </CardTitle>
                         <DirectoryGallery/>
                         <CardText>
-                            Directory is a project that I helped design and develop during the "Innovate or Die" (IOD) days at Bold, which is a hackathon type event with the goal of improving Bold itself. You get to create your own project or help someone else achieve theirs. I chose to help a fellow co-worker and good friend in creating a web application that uses Samsung SmartThings sensors to track office movement and current door positions of our directors to see if they are available or busy/away. The code base uses ES6 (React), Golang, Groovy, and Ruby (Sinatra). At our most recent IOD we were able to Docker-ize app and publish it live. You can check it out <a href='https://directory.boldcommerce.com' target='_blank' rel='noopener noreferrer'>here!</a>
+                            Directory is a project that I helped design and develop during the "Innovate or Die" (IOD) days at Bold, which is a hackathon type event with the goal of improving Bold itself. You get to create your own project or help someone else achieve theirs. I chose to help a fellow co-worker and good friend in creating a web application that uses Samsung SmartThings sensors. The sensors are used to track office movement and the current door positions of our directors' offices to see if they are available or away. The code base uses JavaScript (React), Golang, Groovy, and Ruby (Sinatra). At our most recent IOD we were able to Docker-ize our web app and publish it live.
                         </CardText>
                     </CardBody>
                 </Card>
