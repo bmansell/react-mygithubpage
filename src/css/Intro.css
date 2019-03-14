@@ -18,6 +18,7 @@
   color: #DDD; }
 
 span.user {
+  font-family: 'Ubuntu', sans-serif;
   padding-right: 1rem;
   font-weight: bolder; }
 

@@ -10,7 +10,7 @@
     "eslint": "^4.16.0",
     "eslint-plugin-react": "^7.6.0",
     "extend": "^3.0.2",
-    "jquery": "1.9.1",
+    "jquery": "^3.0.0",
     "lodash": "^4.17.11",
     "macaddress": "^0.2.9",
     "merge": "^1.2.1",
