@@ -1,13 +1,13 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import Gallery from 'react-photo-gallery';
 import Lightbox from 'react-images';
-import {images} from '../../images';
+import { images } from '../../images';
 
 const softengPhotos = [
-    {src: images.soft_eng.partEz1, width: 1, height: 1, caption: 'Registration'},
-    {src: images.soft_eng.partEz2, width: 1, height: 1, caption: 'Home Page'},
-    {src: images.soft_eng.partEz3, width: 1, height: 1, caption: 'Event View'},
-    {src: images.soft_eng.partEz4, width: 1, height: 1, caption: 'Event Creation'}
+    { src: images.soft_eng.partEz1, width: 1, height: 1, caption: 'Registration' },
+    { src: images.soft_eng.partEz2, width: 1, height: 1, caption: 'Home Page' },
+    { src: images.soft_eng.partEz3, width: 1, height: 1, caption: 'Event View' },
+    { src: images.soft_eng.partEz4, width: 1, height: 1, caption: 'Event Creation' }
 ];
 
 class SoftEngGallery extends Component {
